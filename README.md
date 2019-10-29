@@ -21,13 +21,13 @@ SERVER_PORT=9999 mvn spring-boot:run
 
 ## Usage
 
-```
 Test if up:
+```
 http://localhost:8888
 http://localhost:8090 or 9020 or 9999
-
-See in action:
-http://localhost:8888/hi?name=robinhood
-Modify the above name again and again to see different greetings.
-
 ```
+See in action:
+```
+http://localhost:8888/hi?name=robinhood
+```
+Modify the above name parameter again and again to see different greetings.
